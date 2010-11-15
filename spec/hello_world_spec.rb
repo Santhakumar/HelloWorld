@@ -252,7 +252,7 @@ describe "Hello World Test" do
   #
   it "will click hello button and then confirm label has value 'hello'" do
     @hello_button.click
-    @label.should have_value /hellod/i
+    @label.should have_value /hello/i
   end
   
   #
