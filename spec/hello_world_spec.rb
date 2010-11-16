@@ -264,7 +264,7 @@ describe "Hello World Test" do
   #
   # For a slightly more advanced use of the Lebowski framework, check out the
   # second hello world spec (hello_world_2_spec.rb)
-  #
+  # Adding some comments
   it "will click world button and then confirm label has value 'world'" do
     @world_button.click
     @label.should have_value /world/i
