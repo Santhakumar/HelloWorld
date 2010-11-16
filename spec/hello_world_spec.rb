@@ -234,7 +234,7 @@ describe "Hello World Test" do
   # use symbols such as :object, :number, :string, :boolean, :array and so on.
   #
   it "will check that world button has title 'world'" do
-    @world_button.should have_title /worlds/i
+    @world_button.should have_title /world/i
   end
   
   #
