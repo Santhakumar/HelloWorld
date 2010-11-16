@@ -267,7 +267,7 @@ describe "Hello World Test" do
   #
   it "will click world button and then confirm label has value 'world'" do
     @world_button.click
-    @label.should have_value /worlda/i
+    @label.should have_value /world/i
   end
   end
 end
