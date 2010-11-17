@@ -216,7 +216,7 @@ describe "Hello World Test" do
   # the browser then nil or :undefined will be returned, respectively. 
   #
   it "will check that hello button has title 'hello'" do
-    @hello_button.should have_title /hello/i
+    @hello_button.should have_title /hellosssss/i
   end
   
   #
